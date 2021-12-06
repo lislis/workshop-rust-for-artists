@@ -13,6 +13,10 @@ path = "src/main.rs"
 name = "final"
 path = "src/final.rs"
 
+[[bin]]
+name = "summit2021"
+path = "src/rustsummit2021.rs"
+
 [dependencies]
 nannou = "0.18"
 
