@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="utf-8">
+      <title>Iterate, match, repeat!</title>
+      <meta name="description" content="Workshop around Rust iterators, pattern matching and creative coding">
+      <link href="assets/main.css" rel="stylesheet">
+  </head>
+  <body>
+      <textarea id="source">
+      class: center, middle
+
+      # .title.alex[Iterate, match, repeat!]
+
+      Lisa '[lislis](https://lislis.de/)' Passing
+
+      [Rust Summit - December 2021](https://rust-summit.de/)
+
+      ---
+
+      class: middle
+
+      ## $ whoami
+
+      ---
+
+      class: middle
+
+      ## Who are you?
+
+      ---
+
+      class: middle
+
+      ## Setup check
+
+      - Rust installed? (2021 Edition)
+
+      - *Optional: Rust Analyzer installed? Cargo-watch installed?*
+
+      - Clone [workshop repo](https://github.com/lislis/workshop-iterate-match-repeat.git)?
+
+      - Run in code/walkers `cargo run --bin final`
+
+      ---
+
+      class: middle
+
+      # [Nannou](https://nannou.cc/)
+
+      An open-source creative-coding framework for Rust
+
+      ---
+
+      class: middle
+
+      # (Random) Walkers
+
+      - [Random Walks (Nature of Code)](https://natureofcode.com/book/introduction/)
+      - ['Stupid' agent (Genertive Gestaltung)](http://www.generative-gestaltung.de/2/sketches/?01_P/P_2_2_1_01)
+
+      ---
+
+      class: middle
+
+      Looking at an empty sketch
+      `src/main.rs`
+
+      ---
+
+      class: middle
+
+      # Iterators
+
+      --
+
+      - Performings tasks on a sequence of items
+
+      - *Trait* implemented many types
+
+      - lazy (they need to be *consume*d)
+
+      ---
+
+      class: middle
+
+      # Iterators
+
+      `.iter()` iterator over immutable references
+
+      `.into_iter()` iterator takes ownership and returns owned values
+
+      `.iter_mut()` iterator over mutable references
+
+      ---
+
+      class: middle
+
+      # Functional toolkit
+
+      [.map, .filter, .fold and Closures](https://play.rust-lang.org/?version=stable&mode=debug&edition=2021&gist=f697c09970b12c3104a6cffbe222321b)
+
+      ---
+
+      class: middle
+
+      # Pattern matching
+
+      --
+
+      - Popular (best?) control flow!
+      - Exhaustive!
+      - Very effective with Enums (esp. error handling!)
+      - Powerful match guards
+
+      ---
+
+      class: middle
+
+      # Pattern matching
+      [Basic syntax](https://play.rust-lang.org/?version=stable&mode=debug&edition=2021&gist=1ef1324a53720290602dbd697eb7b4a8)
+
+      ---
+
+      class: middle
+
+      # Pattern matching
+      [With enums](https://play.rust-lang.org/?version=stable&mode=debug&edition=2021&gist=1d2ee3f87c9ff0b2cc5ba412dd124d70)
+
+      ---
+
+      class: middle
+
+      # Pattern matching
+      [Match guards](https://play.rust-lang.org/?version=stable&mode=debug&edition=2021&gist=8074b699303cf19698fd2a232422ac2f)
+
+      ---
+
+      class: middle, center
+
+      ## Play time!
+
+      ---
+
+      class: middle
+      ## Thank you!
+
+      .no-bullets[
+      - 📧 mail@lislis.de
+      - 🐘 [@lislis@toot.cat](https://toot.cat/@lislis)
+      - 🐙 || 🦊 lislis
+      ]
+      </textarea>
+
+    <script src="assets/remark.min.js"></script>
+    <script>var slideshow = remark.create({
+       ratio: '16:9',
+       navigation: {
+         scroll: false
+       }});
+    </script>
+  </body>
+</html>
