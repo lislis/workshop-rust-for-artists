@@ -21,6 +21,10 @@ path = "src/rustsummit2021.rs"
 name = "linz2022nohistory"
 path = "src/linz2022nohistory.rs"
 
+[[bin]]
+name = "ars2022"
+path = "src/ars2022.rs"
+
 [dependencies]
 nannou = "0.18"
-
+rand = "0.8.5"
